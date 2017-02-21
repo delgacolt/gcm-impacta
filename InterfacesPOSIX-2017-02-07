@@ -1,0 +1,7 @@
+I/O - iseek(), read()
+processos - truncate(), recv(),
+arquivos - access(), chdir(),
+armazenamento secundario - mkdir(),link(), sync()
+rede - accept(), bind(),
+control access - chown(), fcntl(),
+armazenamento principal - read(), shm_open(), write()
