@@ -1,0 +1,21 @@
+HISTÓRICO DE VERSÕES
+
+WordPress - Version 4.7.2
+   a unica alteração da versão anterior foi na parte de segurança.
+
+NGINX
+  Changes with nginx 1.11.10                                     
+    Change: cache header format has been changed, previously cached
+       responses will be invalidated.
+    
+    Feature: support of "stale-while-revalidate" and "stale-if-error"
+       extensions in the "Cache-Control" backend response header line.
+    
+    Feature: the "proxy_cache_background_update",
+       "fastcgi_cache_background_update", "scgi_cache_background_update",
+       and "uwsgi_cache_background_update" directives.
+ 
+ Apache HTTP Server
+  Mudanças Apache 2.4.25 - atualização OpenSSL de 1.0.2j para 1.0.2k 
+  atualização pcre to 8.40 from 8.39
+  atualização zlib de 1.2.8 para 1.2.11
